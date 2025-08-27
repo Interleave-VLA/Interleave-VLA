@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      // attach to process ran in cli, set --listen <port>
+      {
+        "name": "Python: all code", 
+        "type": "python",
+        "request": "attach",
+        "connect": { "host": "localhost", "port": 5680 }, 
+        "justMyCode": false 
+      },
+      {
+        "name": "Python: Debug Current File",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "cwd": "${fileDirname}", 
+        "env": {
+          "PYTHONPATH": "${fileDirname}"
+        }
+      }
+    ]
+  }

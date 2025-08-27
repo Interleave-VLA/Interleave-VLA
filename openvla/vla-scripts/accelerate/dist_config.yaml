@@ -1,0 +1,22 @@
+compute_environment: LOCAL_MACHINE
+debug: false
+deepspeed_config:
+  deepspeed_config_file: /inspire/ssd/ws-f4d69b29-e0a5-44e6-bd92-acf4de9990f0/public-project/public/yjc/cunxin/Chameleon-VLA/openvla/vla-scripts/deepspeed/zero2.json
+  deepspeed_hostfile: /inspire/ssd/ws-f4d69b29-e0a5-44e6-bd92-acf4de9990f0/public-project/public/yjc/cunxin/Chameleon-VLA/openvla/vla-scripts/deepspeed/hostfile
+  deepspeed_multinode_launcher: pdsh
+  zero3_init_flag: false
+distributed_type: DEEPSPEED
+downcast_bf16: 'no'
+enable_cpu_affinity: false
+machine_rank: 0
+main_process_ip: 192.168.1.1
+main_process_port: 29500
+main_training_function: main
+num_machines: 4
+num_processes: 4
+rdzv_backend: static
+same_network: true
+tpu_env: []
+tpu_use_cluster: false
+tpu_use_sudo: false
+use_cpu: false

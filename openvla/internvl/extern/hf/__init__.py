@@ -1,0 +1,1 @@
+# Copied this folder from https://huggingface.co/OpenGVLab/InternVL2_5-8B/tree/main

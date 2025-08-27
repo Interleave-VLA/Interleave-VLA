@@ -1,0 +1,4 @@
+checkpoints/
+checkpoints_backup/
+
+__pycache__

@@ -1,0 +1,8 @@
+# Unignore all images
+!*.jpg
+!*.png
+!*.jpeg
+!*.gif
+!*.bmp
+!*.tiff
+!*.webp
