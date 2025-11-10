@@ -17,8 +17,8 @@ Interleave‑VLA is built upon state‑of‑the‑art VLA models. We provide two
 Train and evaluate:
 
  ✅ Documentation: [Interleave‑π0](/open-pi-zero/doc/interleave_pi0.md) — complete and ready to use.
- 
- 📥 Checkpoint — coming soon ⏳.
+
+ 🤗 Checkpoint on HuggingFace: [Interleave‑π0 Checkpoint](https://huggingface.co/Interleave-VLA/interleave-pi0-bridge).
 
 ### Interleave‑OpenVLA
 Guide coming soon:
@@ -30,7 +30,7 @@ Guide coming soon:
 ## Roadmap 🗺️
 - [x] Release Interleave‑π0 code
 - [x] Release Interleave‑π0 documentation
-- [ ] Release Interleave‑π0 checkpoint
+- [x] Release Interleave‑π0 checkpoint
 - [x] Release Interleave‑OpenVLA code
 - [ ] Release Interleave‑OpenVLA documentation
 - [ ] Release Interleave‑OpenVLA checkpoint

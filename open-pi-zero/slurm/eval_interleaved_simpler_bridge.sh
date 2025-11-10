@@ -12,7 +12,8 @@
 
 source .env
 
-ckpt_path="/path/to/open-pi-zero/logs/train/your_run_name/step33286.pt"
+# hf download Interleave-VLA/interleave-pi0-bridge --include "step34799.pt"
+ckpt_path="/path/to/open-pi-zero/logs/train/your_run_name/step34799.pt"
 
 echo "Using checkpoint: $ckpt_path..."
 
